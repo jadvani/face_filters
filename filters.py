@@ -1,5 +1,5 @@
 # Face filters (Snapchat like) using OpenCV
-# @author:Javier Advani 
+# @author:Javier Advani & Rafa Fernández
 #based on @kg777 code with tweepy options and other filters 
 import cv2
 import sys
