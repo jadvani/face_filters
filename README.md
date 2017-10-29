@@ -5,6 +5,11 @@ Snapchat-like Face Filters in OpenCV
 1. Dog Filter
 2. Moustache Filter
 3. Cowboy Hat Filter
+4.)Dog 
+5.)Flower
+
+*Press 'q' to quit
+*Press 't' to tweet
 
 ## Dependencies
  - OpenCV(3.2.0)
