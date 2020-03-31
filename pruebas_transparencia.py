@@ -4,6 +4,8 @@ Created on Wed Sep 27 00:38:47 2017
 
 @author: Javier
 """
+import cv2
+import numpy as np
 
 def crea_alpha(img):
     b_channel, g_channel, r_channel = cv2.split(img)

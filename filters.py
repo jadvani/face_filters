@@ -2,13 +2,11 @@
 # @author:Javier Advani & Rafa Fernández
 #based on @kg777 code with tweepy options and other filters 
 import cv2
-import sys
 import logging as log
 import datetime as dt
 from datetime import datetime
 from time import sleep
-import numpy as np
-import tweepy
+#import tweepy
 
 i = datetime.now()               #take time and date for filename  
 now = i.strftime('%Y%m%d-%H%M%S')
@@ -116,8 +114,8 @@ def put_dog_filter(dog,fc,x,y,w,h):
     return fc
 
 ch = 0
-print "Selecciona un filtro: 1.) Sombrero 2.) Bigote 3.)Sombrero y bigote 4.)Perro 5.)flor "
-ch = int(raw_input())
+print("Selecciona un filtro: 1.) Sombrero 2.) Bigote 3.)Sombrero y bigote 4.)Perro 5.)flor ")
+ch = int(input())
     
     
 while True:
@@ -171,29 +169,7 @@ while True:
 
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
-    if cv2.waitKey(1) & 0xFF == ord('t'):
-        cv2.imwrite('ejemplo.png',frame)
-        frame2=put_ieee(frame,ieee)
-        cv2.imwrite('ejemplo_ieee.png',frame2)
-        #FILL THIS DATA WITH YOUR ACCOUNT 
-        # Consumer keys and access tokens, used for OAuth
-        consumer_key = '***' 
-        consumer_secret = '***' 
-        access_token = '***' 
-        access_token_secret = '***'
-        
-        # OAuth process, using the keys and tokens
-        auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
-        auth.set_access_token(access_token, access_token_secret)
 
-        # Creation of the actual interface, using authentication
-        api = tweepy.API(auth)
-
-        # Send the tweet with photo
-        photo_path = 'ejemplo.png'
-        status = 'IEEESBUS Fotomaton: ' + i.strftime('%Y/%m/%d %H:%M:%S')
-        api.update_with_media(photo_path, status=status)
-        break
     
 
 # When everything is done, release the capture
