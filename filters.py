@@ -116,7 +116,7 @@ def put_dog_filter(dog,fc,x,y,w,h):
 ch = 0
 print("Selecciona un filtro: 1.) Sombrero 2.) Bigote 3.)Sombrero y bigote 4.)Perro 5.)flor ")
 ch = int(input())
-    
+print( 'Si quieres salir pulsa q, para twitear la imagen pulsa t')    
     
 while True:
     if not video_capture.isOpened():
@@ -139,6 +139,7 @@ while True:
     )
 
     # Draw a rectangle around the faces
+
     for (x, y, w, h) in faces:
         #cv2.rectangle(frame, (x, y), (x+w, y+h), (0, 255, 0), 2)
         #cv2.putText(frame,"Person Detected",(x,y),cv2.FONT_HERSHEY_SIMPLEX,1,(0,0,255),2)
@@ -164,7 +165,8 @@ while True:
 
 
     # Display the resulting frame
-    cv2.imshow('Si quieres salir pulsa q para tweetear la imagen pulsa t', frame)
+
+    cv2.imshow('IEEE filters', frame)
 
 
     if cv2.waitKey(1) & 0xFF == ord('q'):
