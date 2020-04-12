@@ -1,9 +1,10 @@
 # OpenCV-Face-Filters
-Snapchat-like Face Filters in OpenCV
+
+Instagram/Snapchat-like Face Filters in OpenCV
 
 ![preview](https://github.com/jadvani/ieee_facefilters/blob/master/img/preview.jpg)
 
-## Currently following filters are available:
+## Filters currently available
 
 1. Dog Filter
 2. Moustache Filter
@@ -15,7 +16,7 @@ Snapchat-like Face Filters in OpenCV
 *Press 't' to tweet
 
 ## Dependencies
- - OpenCV(3.2.0)
+ - OpenCV
  - Python 3.x
  
 Note Make Sure to paste all the filter png's in the same directory as _filters.py_ <br>
