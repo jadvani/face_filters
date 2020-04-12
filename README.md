@@ -1,7 +1,7 @@
 # OpenCV-Face-Filters
 Snapchat-like Face Filters in OpenCV
 
-![preview](https://github.com/jadvani/ieee_facefilters/blob/master/img/flower_preview.jpg)
+![preview](https://github.com/jadvani/ieee_facefilters/blob/master/img/preview.jpg)
 
 ## Currently following filters are available:
 
@@ -18,5 +18,5 @@ Snapchat-like Face Filters in OpenCV
  - OpenCV(3.2.0)
  - Python 3.x
  
-Note Make Sure to paste all the filter png's in the same directory as _filters.py_
-![preview](https://github.com/jadvani/ieee_facefilters/blob/master/img/preview.jpg)
+Note Make Sure to paste all the filter png's in the same directory as _filters.py_ <br>
+![preview](https://github.com/jadvani/ieee_facefilters/blob/master/img/flower_preview.jpg)
