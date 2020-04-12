@@ -13,7 +13,6 @@ Instagram/Snapchat-like Face Filters in OpenCV
 5. Flower
 
 *Press 'q' to quit
-*Press 't' to tweet
 
 ## Dependencies
  - OpenCV
