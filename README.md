@@ -4,6 +4,11 @@ Instagram/Snapchat-like Face Filters in OpenCV. This code was created to show IE
 
 ![preview](https://github.com/jadvani/ieee_facefilters/blob/master/img/preview.jpg)
 
+
+## Dependencies
+ - OpenCV
+ - Python 3.x
+ 
 ## Filters currently available
 
 1. Dog Filter
@@ -12,11 +17,11 @@ Instagram/Snapchat-like Face Filters in OpenCV. This code was created to show IE
 4. Dog 
 5. Flower
 
-*Press 'q' to quit
+## How to run 
 
-## Dependencies
- - OpenCV
- - Python 3.x
- 
-Note Make Sure to paste all the filter png's in the same directory as _filters.py_ <br>
+Simply run 'filters.py' and then choose one of the filters above. 
+
+*Note: Press 'q' to finish the execution <br>
+
+
 ![preview](https://github.com/jadvani/ieee_facefilters/blob/master/img/flower_preview.jpg)
