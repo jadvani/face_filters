@@ -11,7 +11,7 @@ from time import sleep
 i = datetime.now()               #take time and date for filename  
 now = i.strftime('%Y%m%d-%H%M%S')
 
-cascPath = "haarcascade_frontalface_default.xml"  # for face detection
+cascPath = "classifiers/haarcascade_frontalface_default.xml"  # for face detection
 faceCascade = cv2.CascadeClassifier(cascPath)
 log.basicConfig(filename='webcam.log',level=log.INFO)
 
@@ -21,11 +21,11 @@ video_capture.set(4,400)
 
 
 anterior = 0
-mst = cv2.imread('moustache.png')
-hat = cv2.imread('cowboy_hat.png')
-dog = cv2.imread('dog_filter.png')
-flor=cv2.imread('flor2.png')
-ieee=cv2.imread('ieee.png')
+mst = cv2.imread('img/moustache.png')
+hat = cv2.imread('img/cowboy_hat.png')
+dog = cv2.imread('img/dog_filter.png')
+flor=cv2.imread('img/flor.png')
+ieee=cv2.imread('img/ieee.png')
 
 # =============================================================================
 def put_ieee(img1,img2): #img2 es el logo    
