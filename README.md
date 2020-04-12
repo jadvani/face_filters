@@ -1,6 +1,6 @@
 # OpenCV-Face-Filters
 
-Instagram/Snapchat-like Face Filters in OpenCV
+Instagram/Snapchat-like Face Filters in OpenCV. This code was created to show IEEE Students how can we apply a basic Computer Vision implementation in real life situations.
 
 ![preview](https://github.com/jadvani/ieee_facefilters/blob/master/img/preview.jpg)
 
